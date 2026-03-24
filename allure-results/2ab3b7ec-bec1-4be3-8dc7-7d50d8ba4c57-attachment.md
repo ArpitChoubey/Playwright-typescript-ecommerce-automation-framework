@@ -1,0 +1,106 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#MainContent"
+  - region "Announcement" [ref=e6]:
+    - link "Welcome to our SPARKLECART | Your All in One Online Shop" [ref=e7] [cursor=pointer]:
+      - /url: /collections/all
+      - paragraph [ref=e8]:
+        - text: Welcome to our SPARKLECART | Your All in One Online Shop
+        - img
+  - banner [ref=e11]:
+    - link "SparkleCart" [ref=e12] [cursor=pointer]:
+      - /url: /
+      - img "SparkleCart" [ref=e14]
+    - navigation [ref=e15]:
+      - list [ref=e16]:
+        - listitem [ref=e17]:
+          - link "Home" [ref=e18] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]: Home
+        - listitem [ref=e20]:
+          - link "Shop All" [ref=e21] [cursor=pointer]:
+            - /url: /collections/all
+            - generic [ref=e22]: Shop All
+        - listitem [ref=e23]:
+          - link "FAQs" [ref=e24] [cursor=pointer]:
+            - /url: /pages/faqs
+            - generic [ref=e25]: FAQs
+        - listitem [ref=e26]:
+          - link "Track Order" [ref=e27] [cursor=pointer]:
+            - /url: /pages/track-order
+            - generic [ref=e28]: Track Order
+        - listitem [ref=e29]:
+          - link "Contact" [ref=e30] [cursor=pointer]:
+            - /url: /pages/contact
+            - generic [ref=e31]: Contact
+    - generic [ref=e32]:
+      - group [ref=e34]:
+        - button "Search" [ref=e35] [cursor=pointer]:
+          - img [ref=e38]
+      - link "Log in" [ref=e40] [cursor=pointer]:
+        - /url: https://sparklecartonline.com/customer_authentication/redirect?locale=en&region_country=US
+        - img [ref=e43]
+        - generic [ref=e45]: Log in
+      - link "Cart" [ref=e46] [cursor=pointer]:
+        - /url: /cart
+        - img [ref=e48]
+        - generic [ref=e50]: Cart
+  - main [ref=e51]:
+    - generic [ref=e53]:
+      - heading "Track Order" [level=1] [ref=e54]
+      - generic [ref=e55]:
+        - generic [ref=e56]: Enter your tracking number to see the order status
+        - generic [ref=e57]:
+          - textbox [active] [ref=e58]: "123456789"
+          - button "TRACK ORDER" [ref=e59]
+  - generic [ref=e62]:
+    - heading "Subscribe to our emails" [level=2] [ref=e63]
+    - paragraph [ref=e65]: Subscribe to our mailing list for insider news, product launches, and more.
+    - generic [ref=e69]:
+      - textbox "Email" [ref=e70]
+      - generic: Email
+      - button "Subscribe" [ref=e71] [cursor=pointer]:
+        - img [ref=e73]
+  - contentinfo [ref=e76]:
+    - generic [ref=e78]:
+      - generic [ref=e79]:
+        - generic [ref=e83]:
+          - heading "Country/region" [level=2] [ref=e84]
+          - button "United States | USD $" [ref=e86] [cursor=pointer]:
+            - generic [ref=e87]: United States | USD $
+            - img [ref=e88]
+        - generic [ref=e91]:
+          - generic [ref=e92]: Payment methods
+          - list [ref=e93]:
+            - listitem [ref=e94]:
+              - img "PayPal" [ref=e95]
+            - listitem [ref=e101]:
+              - img "Venmo" [ref=e102]
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - text: © 2026,
+          - link "SparkleCart" [ref=e110] [cursor=pointer]:
+            - /url: /
+        - link "Powered by Shopify" [ref=e112] [cursor=pointer]:
+          - /url: https://www.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+        - list [ref=e113]:
+          - listitem [ref=e114]:
+            - text: ·
+            - link "Privacy policy" [ref=e116] [cursor=pointer]:
+              - /url: /policies/privacy-policy
+          - listitem [ref=e117]:
+            - text: ·
+            - link "Refund policy" [ref=e119] [cursor=pointer]:
+              - /url: /policies/refund-policy
+          - listitem [ref=e120]:
+            - text: ·
+            - link "Terms of service" [ref=e122] [cursor=pointer]:
+              - /url: /policies/terms-of-service
+          - listitem [ref=e123]:
+            - text: ·
+            - link "Shipping policy" [ref=e125] [cursor=pointer]:
+              - /url: /policies/shipping-policy
+```

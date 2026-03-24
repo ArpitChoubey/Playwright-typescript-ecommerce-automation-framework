@@ -1,0 +1,4 @@
+Exception while entering tracking number: Error: locator.fill: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('input[type="text"], input[placeholder*="tracking"]')
+

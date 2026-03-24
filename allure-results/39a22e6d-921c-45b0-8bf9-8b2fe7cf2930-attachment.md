@@ -1,0 +1,194 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#MainContent"
+  - region "Announcement" [ref=e6]:
+    - link "Welcome to our SPARKLECART | Your All in One Online Shop" [ref=e7] [cursor=pointer]:
+      - /url: /collections/all
+      - paragraph [ref=e8]:
+        - text: Welcome to our SPARKLECART | Your All in One Online Shop
+        - img
+  - banner [ref=e11]:
+    - link "SparkleCart" [ref=e12] [cursor=pointer]:
+      - /url: /
+      - img "SparkleCart" [ref=e14]
+    - navigation [ref=e15]:
+      - list [ref=e16]:
+        - listitem [ref=e17]:
+          - link "Home" [ref=e18] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e19]: Home
+        - listitem [ref=e20]:
+          - link "Shop All" [ref=e21] [cursor=pointer]:
+            - /url: /collections/all
+            - generic [ref=e22]: Shop All
+        - listitem [ref=e23]:
+          - link "FAQs" [ref=e24] [cursor=pointer]:
+            - /url: /pages/faqs
+            - generic [ref=e25]: FAQs
+        - listitem [ref=e26]:
+          - link "Track Order" [ref=e27] [cursor=pointer]:
+            - /url: /pages/track-order
+            - generic [ref=e28]: Track Order
+        - listitem [ref=e29]:
+          - link "Contact" [ref=e30] [cursor=pointer]:
+            - /url: /pages/contact
+            - generic [ref=e31]: Contact
+    - generic [ref=e32]:
+      - group [ref=e34]:
+        - button "Search" [ref=e35] [cursor=pointer]:
+          - img [ref=e38]
+      - link "Log in" [ref=e40] [cursor=pointer]:
+        - /url: https://sparklecartonline.com/customer_authentication/redirect?locale=en&region_country=US
+        - img [ref=e43]
+        - generic [ref=e45]: Log in
+      - link "Cart" [ref=e46] [cursor=pointer]:
+        - /url: /cart
+        - img [ref=e48]
+        - generic [ref=e50]: Cart
+  - main [ref=e51]:
+    - 'heading "Collection: Home" [level=1] [ref=e56]':
+      - generic [ref=e57]: "Collection:"
+      - text: Home
+    - generic [ref=e60]:
+      - complementary "Filter:" [ref=e61]:
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - heading "Filter:" [level=2] [ref=e66]
+            - group [ref=e67]:
+              - button "Availability (0 selected)" [ref=e68] [cursor=pointer]:
+                - generic [ref=e69]:
+                  - text: Availability
+                  - img [ref=e70]
+            - group [ref=e72]:
+              - button "Price" [ref=e73] [cursor=pointer]:
+                - generic [ref=e74]:
+                  - text: Price
+                  - img [ref=e75]
+          - generic [ref=e79]:
+            - heading "Sort by:" [level=2] [ref=e80]
+            - generic [ref=e81]:
+              - combobox "Sort by:" [ref=e82] [cursor=pointer]:
+                - option "Featured"
+                - option "Best selling"
+                - option "Alphabetically, A-Z" [selected]
+                - option "Alphabetically, Z-A"
+                - option "Price, low to high"
+                - option "Price, high to low"
+                - option "Date, old to new"
+                - option "Date, new to old"
+              - generic:
+                - img
+          - status [ref=e83]:
+            - heading "4 products" [level=2] [ref=e84]
+      - list [ref=e87]:
+        - listitem [ref=e88]:
+          - generic [ref=e90]:
+            - generic [ref=e91]:
+              - img "Candle Melting Lamp" [ref=e94]
+              - generic [ref=e97]: Sale
+            - generic [ref=e99]:
+              - heading "Candle Melting Lamp Sale" [level=3] [ref=e100]:
+                - link "Candle Melting Lamp Sale" [ref=e101]:
+                  - /url: /products/cross-border-simple-aromatherapy-wax-lamp-iron-art-wood-tabletop-night-light-romantic-bedside-lamp-fireless-essential-oil-melt-candle-lamp
+                  - text: Candle Melting Lamp
+              - generic [ref=e105]:
+                - generic [ref=e106]: Regular price
+                - generic [ref=e108]: $79.98 USD
+                - generic [ref=e109]: Sale price
+                - generic [ref=e110]: $39.99 USD
+        - listitem [ref=e111]:
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - img "Electric Floor Scrubber" [ref=e117]
+              - generic [ref=e120]: Sale
+            - generic [ref=e122]:
+              - heading "Electric Floor Scrubber Sale" [level=3] [ref=e123]:
+                - link "Electric Floor Scrubber Sale" [ref=e124]:
+                  - /url: /products/new-7-in-1-cordless-electric-cleaning-brush-long-handle-retractable-bathroom-toilet-floor-electric-brush-electric-mop
+                  - text: Electric Floor Scrubber
+              - generic [ref=e128]:
+                - generic [ref=e129]: Regular price
+                - generic [ref=e131]: $119.98 USD
+                - generic [ref=e132]: Sale price
+                - generic [ref=e133]: $59.99 USD
+        - listitem [ref=e134]:
+          - generic [ref=e136]:
+            - generic [ref=e137]:
+              - img "Food Dicer" [ref=e140]
+              - generic [ref=e143]: Sale
+            - generic [ref=e145]:
+              - heading "Food Dicer Sale" [level=3] [ref=e146]:
+                - link "Food Dicer Sale" [ref=e147]:
+                  - /url: /products/household-kitchen-multi-functional-vegetable-cutter-cross-border-dicing-artifact-cutting-onion-carrot-potato-cutting-gadgets
+                  - text: Food Dicer
+              - generic [ref=e151]:
+                - generic [ref=e152]: Regular price
+                - generic [ref=e154]: $49.98 USD
+                - generic [ref=e155]: Sale price
+                - generic [ref=e156]: $24.99 USD
+        - listitem [ref=e157]:
+          - generic [ref=e159]:
+            - generic [ref=e160]:
+              - img "LED Bluetooth Waterproof Speaker" [ref=e163]
+              - generic [ref=e166]: Sale
+            - generic [ref=e168]:
+              - heading "LED Bluetooth Waterproof Speaker Sale" [level=3] [ref=e169]:
+                - link "LED Bluetooth Waterproof Speaker Sale" [ref=e170]:
+                  - /url: /products/big-suction-cup-waterproof-bluetooth-speaker-led-light-illuminating-waterproof-bathroom-bluetooth-speaker-portable-bluetooth-speaker
+                  - text: LED Bluetooth Waterproof Speaker
+              - generic [ref=e174]:
+                - generic [ref=e175]: Regular price
+                - generic [ref=e177]: $59.98 USD
+                - generic [ref=e178]: Sale price
+                - generic [ref=e179]: $29.99 USD
+  - generic [ref=e182]:
+    - heading "Subscribe to our emails" [level=2] [ref=e183]
+    - paragraph [ref=e185]: Subscribe to our mailing list for insider news, product launches, and more.
+    - generic [ref=e189]:
+      - textbox "Email" [ref=e190]
+      - generic: Email
+      - button "Subscribe" [ref=e191] [cursor=pointer]:
+        - img [ref=e193]
+  - contentinfo [ref=e196]:
+    - generic [ref=e198]:
+      - generic [ref=e199]:
+        - generic [ref=e203]:
+          - heading "Country/region" [level=2] [ref=e204]
+          - button "United States | USD $" [ref=e206] [cursor=pointer]:
+            - generic [ref=e207]: United States | USD $
+            - img [ref=e208]
+        - generic [ref=e211]:
+          - generic [ref=e212]: Payment methods
+          - list [ref=e213]:
+            - listitem [ref=e214]:
+              - img "PayPal" [ref=e215]
+            - listitem [ref=e221]:
+              - img "Venmo" [ref=e222]
+      - generic [ref=e228]:
+        - generic [ref=e229]:
+          - text: © 2026,
+          - link "SparkleCart" [ref=e230]:
+            - /url: /
+        - link "Powered by Shopify" [ref=e232]:
+          - /url: https://www.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+        - list [ref=e233]:
+          - listitem [ref=e234]:
+            - text: ·
+            - link "Privacy policy" [ref=e236]:
+              - /url: /policies/privacy-policy
+          - listitem [ref=e237]:
+            - text: ·
+            - link "Refund policy" [ref=e239]:
+              - /url: /policies/refund-policy
+          - listitem [ref=e240]:
+            - text: ·
+            - link "Terms of service" [ref=e242]:
+              - /url: /policies/terms-of-service
+          - listitem [ref=e243]:
+            - text: ·
+            - link "Shipping policy" [ref=e245]:
+              - /url: /policies/shipping-policy
+```

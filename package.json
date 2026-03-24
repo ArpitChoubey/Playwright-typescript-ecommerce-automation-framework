@@ -1,0 +1,41 @@
+{
+  "name": "playwrighttypescriptframework",
+  "version": "1.0.0",
+  "description": "Playwright Automation Framework with Allure Reporting",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+
+    "test:smoke": "playwright test --grep @smoke",
+    "test:sanity": "playwright test --grep @sanity",
+    "test:regression": "playwright test --grep @regression",
+    "test:e2e": "playwright test --grep @e2e",
+
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+
+    "test:smoke:headed": "playwright test --grep @smoke --headed",
+    "test:sanity:debug": "playwright test --grep @sanity --debug",
+
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "allure:serve": "allure serve allure-results"
+  },
+  "keywords": [],
+  "author": "Arpit Choubey",
+  "license": "ISC",
+  "type": "commonjs",
+
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^22.15.23",
+    "allure-commandline": "^2.38.1",
+    "allure-playwright": "^3.6.0"
+  },
+
+  "dependencies": {
+    "@faker-js/faker": "^10.3.0",
+    "csv-parse": "^6.2.1",
+    "xlsx": "^0.18.5"
+  }
+}
