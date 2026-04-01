@@ -1,4 +1,4 @@
-# 🚀 Sparkle Cart Website - Playwright TypeScript Automation Framework
+# 🚀 Playwright TypeScript E-Commerce Automation Framework
 
 > 🔥 A scalable, production-ready End-to-End Automation Framework built using Playwright + TypeScript following industry best practices.
 
