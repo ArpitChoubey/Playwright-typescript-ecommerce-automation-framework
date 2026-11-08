@@ -32,22 +32,22 @@ export class DataProvider {
 
     // Login Data
     static getLoginData() {
-        return this.getTestDataFromJson('testdata/loginData.json');
+        return this.getTestDataFromJson('TestData/loginData.json');
     }
 
     // Search Product Data
     static getSearchData() {
-        return this.getTestDataFromJson('testdata/searchData.json');
+        return this.getTestDataFromJson('TestData/searchData.json');
     }
 
     // Track Order Data
     static getTrackOrderData() {
-        return this.getTestDataFromJson('testdata/trackOrderData.json');
+        return this.getTestDataFromJson('TestData/trackOrderData.json');
     }
 
     // Product Data
     static getProductData() {
-        return this.getTestDataFromJson('testdata/productData.json');
+        return this.getTestDataFromJson('TestData/productData.json');
     }
 
 }
